@@ -2,14 +2,14 @@ import { useRouter } from "next/dist/client/router";
 import React, { ReactElement } from "react";
 
 import Error from "next/error";
-import { BeaconInfo } from "../../../../lib/Types";
-import Loading from "../../../../components/Loading";
-import * as Controller from "../../../../backend/controllers/controller";
-import Header from "../../../../components/Header";
-import ImageComponent from "../../../../components/Image";
-import Intro from "../../../../components/Intro";
-import Description from "../../../../components/Description";
-import VideoComponent from "../../../../components/Video";
+import { BeaconInfo } from "../../../../src/lib/Types";
+import Loading from "../../../../src/components/Loading";
+import * as Controller from "../../../../src/backend/controllers/controller";
+import Header from "../../../../src/components/Header";
+import ImageComponent from "../../../../src/components/Image";
+import Intro from "../../../../src/components/Intro";
+import Description from "../../../../src/components/Description";
+import VideoComponent from "../../../../src/components/Video";
 
 export async function getServerSideProps({ query }) {
   const beaconInfoId = Array.isArray(query.beaconInfoId)

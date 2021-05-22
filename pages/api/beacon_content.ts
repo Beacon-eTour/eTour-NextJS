@@ -1,6 +1,6 @@
-import * as Controller from "../../backend/controllers/controller";
-import { CORS } from "../../backend/middleware/cors";
-import ErrorHandler from "../../lib/HandleError";
+import * as Controller from "../../src/backend/controllers/controller";
+import { CORS } from "../../src/backend/middleware/cors";
+import ErrorHandler from "../../src/lib/HandleError";
 
 /**
  * @api {get}/api/beacon_content Request Beacon content

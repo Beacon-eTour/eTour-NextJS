@@ -1,5 +1,5 @@
 import React, { ReactElement } from "react";
-import Header from "../../components/Header";
+import Header from "../../src/components/Header";
 
 const AboutPage = (): ReactElement => {
   return (

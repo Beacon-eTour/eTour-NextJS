@@ -1,5 +1,5 @@
-import * as Controller from "../../backend/controllers/controller";
-import { CORS } from "../../backend/middleware/cors";
+import * as Controller from "../../src/backend/controllers/controller";
+import { CORS } from "../../src/backend/middleware/cors";
 /**
  * @api {get}/api/localizations Request localization information
  * @apiName get localizations

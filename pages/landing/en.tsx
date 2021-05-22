@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
-import Header from "../../components/Header";
-import ImageComponent from "../../components/Image";
+import Header from "../../src/components/Header";
+import ImageComponent from "../../src/components/Image";
 
 const LandingPage = (): ReactElement => {
   return (
