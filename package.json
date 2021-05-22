@@ -1,0 +1,27 @@
+{
+  "name": "etour",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "start:production": "next start -p $PORT",
+    "deploy": "cd scripts && ./build.sh && ./deploy.sh"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^4.9.2",
+    "@google-cloud/redis": "^2.2.0",
+    "@types/redis": "^2.8.28",
+    "cors": "^2.8.5",
+    "next": "10.0.6",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.22",
+    "@types/react": "^17.0.0",
+    "typescript": "^4.1.3"
+  }
+}
