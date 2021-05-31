@@ -12,7 +12,7 @@ The solution uses Firestore as the DB, as well as Redis for caching the requests
 
 ### API Endpoint documentation
 
-API-docs are found under the docs/apidoc - folders as a HTML file. The file can be accessed directly, or you can configure for example, github pages to show the docs.
+API-docs are found under the [docs/apidoc](https://github.com/Beacon-eTour/eTour-NextJS/tree/main/docs/apidoc) - folders as a HTML file. The file can be accessed directly, or you can configure for example, github pages to show the docs.
 
 # Development
 
