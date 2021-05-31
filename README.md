@@ -104,6 +104,7 @@ cd scripts/ && ./deploy.sh
 You can edit the scripts if you need to change configurations (such as REDIS IP change). The build script builds a container image (see the `Dockerfile`), loads the image to the Container Registry, and the deploy script then deploys the container image to Cloud Run, [instructions.](https://cloud.google.com/run/docs/quickstarts/build-and-deploy)
 
 ![gcloudbuild](https://user-images.githubusercontent.com/37773658/114723953-c6496300-9d43-11eb-9beb-bfc633c7fe53.PNG)
+
 `Figure of the build process in GCP.`
 
 Also to build apiDoc, you need to have apiDoc installed globally.
